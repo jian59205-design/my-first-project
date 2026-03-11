@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" href="pong-style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Ping Pong Game</h1>
+        <div class="score-board">
+            <div class="player-score">
+                <p>Player 1</p>
+                <p id="player1Score">0</p>
+            </div>
+            <div class="player-score">
+                <p>Player 2</p>
+                <p id="player2Score">0</p>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="instructions">
+            <p><strong>Player 1:</strong> Use W and S keys to move up and down</p>
+            <p><strong>Player 2:</strong> Use Up Arrow and Down Arrow keys to move up and down</p>
+            <p><strong>Space:</strong> Start/Pause the game</p>
+        </div>
+    </div>
+    <script src="pong-game.js"></script>
+</body>
+</html>
